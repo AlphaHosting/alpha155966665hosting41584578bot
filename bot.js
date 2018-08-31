@@ -10,7 +10,7 @@ client.on("ready", () => {
 console.log('Bot Is Ready');
 
 
-client.on('message' message => {
+client.on('message', message => {
 if(message.content === ".bot")
 const embed = new Discord.RichEmbed()
 .setColor('RANDOM')
