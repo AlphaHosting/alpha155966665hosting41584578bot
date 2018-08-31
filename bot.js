@@ -21,6 +21,7 @@ var embed = new Discord.RichEmbed()
 .addField('Channels : [${client.channels.size}]')
 .addField('Prefix : [.]')
 .addField('ID : [client.user.id]')
+message.channel.send(embed)
 });
 
 client.on("message", message => {
