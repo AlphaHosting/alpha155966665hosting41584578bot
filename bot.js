@@ -28,8 +28,8 @@ client.on("message", message => {
  
                 __**  Domains Website **__
 
-				.tk = 20DH            .cf = 20DH
-				.ml = 20DH            .ga = 20DH
+				.tk = 10DH            .cf = 10DH
+				.ml = 10DH            .ga = 10DH
 									
 	               __**Discord Bot : Soon**__
 
