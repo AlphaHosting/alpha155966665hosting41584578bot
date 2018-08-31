@@ -12,7 +12,7 @@ console.log('Bot Is Ready');
 
 client.on('message', message => {
 if(message.content === ".bot")
-const embed = new Discord.RichEmbed()
+var embed = new Discord.RichEmbed()
 .setColor('RANDOM')
 .setFooter('Quran Bot')
 .addField('Owned By : BlackFire')
