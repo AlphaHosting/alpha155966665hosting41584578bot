@@ -10,7 +10,18 @@ client.on("ready", () => {
 console.log('Bot Is Ready');
 
 
-
+client.on('message' message => {
+if(message.content === ".bot")
+const embed = new Discord.RichEmbed()
+.setColor('RANDOM')
+.setFooter('Quran Bot')
+.addField('Owned By : BlackFire')
+.addField('Servers : [${client.guild.size}]')
+.addField('Users : [${client.users.size}]')
+.addField('Channels : [${client.channels.size}]')
+.addField('Prefix : [.]')
+.addField('ID : [client.user.id]')
+});
 
 client.on("message", message => {
 	var prefix = "!";
